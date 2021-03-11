@@ -17,14 +17,14 @@ function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+       The few times I <strong className="purple">Contributed</strong>
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
+        username="Ratnor"
         blockSize={15}
         blockMargin={5}
         theme={colourTheme}
-        fontSize={16}
+        fontSize={15}
       />
     </Row>
   );

@@ -333,6 +333,11 @@ html {
   text-align: left;
 }
 
+html body div#root div#scroll.App section div#about.home-about-section.container-fluid div.container div.row div.myAvtar.col-md-5 div img.img-fluid{
+  height: 425px;
+  border: 5px solid #fff;
+}
+
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;

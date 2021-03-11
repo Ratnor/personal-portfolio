@@ -11,6 +11,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop";
+
+
 function App() {
   const [load, upadateLoad] = useState(true);
   useEffect(() => {

@@ -80,16 +80,6 @@ function Resume() {
               date="2005 - 2015"
               content={["Precentage: 86%"]}
             />
-            <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent
-              title=""
-              content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
-              ]}
-            />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
