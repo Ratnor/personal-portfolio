@@ -7,6 +7,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
+import Tilt from "react-parallax-tilt";
 
 function About() {
   return (
@@ -26,31 +27,46 @@ function About() {
               a little bit more about <strong className="purple">myself...</strong>
             </h1>
             <Aboutcard />
-          </Col>
+          </Col>          
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
+            <Tilt>
+              <img src={laptopImg} alt="about" className="img-fluid" />
+            </Tilt>
+          </Col>          
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <strong className="purple">Skills</strong>
         </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
-          <Techstack iconName="devicon-python-plain-wordmark " />
-          <Techstack iconName="cib-pytorch" />
-          <Techstack iconName="cib-tensorflow" />
-          <Techstack iconName="devicon-javascript-plain " />
-          <Techstack iconName="devicon-nodejs-plain-wordmark " />
-          <Techstack iconName="devicon-express-original-wordmark" />
-          <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-mongodb-plain-wordmark" />
-          <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+        <Row style={{ justifyContent: "center", padding: "50px" }}>        
+          <Techstack iconName="fab fa-java" />
+          <Techstack iconName="fab fa-python" />
+          <Techstack iconName="fab fa-js" />
+          <Techstack iconName="fab fa-sass" />
+          <Techstack iconName="fab fa-bootstrap" />
+          <Techstack iconName="fab fa-git-alt" />          
+          <Techstack iconName="fab fa-github " />
+          <Techstack iconName="fab fa-bitbucket" /> 
+          <Techstack iconName="fab fa-confluence" />
+          <Techstack iconName="fab fa-jira" />
+          
+          
+                   
         </Row>
+        <h1 className="project-heading">
+        <strong className="purple">Tools </strong>I'm familiar with
+      </h1>
+      <Row style={{ justifyContent: "center", padding: "50px" }}>          
+        <Techstack iconName="fab fa-node " />
+        <Techstack iconName="fab fa-less" />
+        <Techstack iconName="fab fa-react" />
+        <Techstack iconName="fab fa-aws" />
+        <Techstack iconName="fab fa-docker" />
+
+      </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>

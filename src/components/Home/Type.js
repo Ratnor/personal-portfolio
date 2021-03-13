@@ -10,10 +10,10 @@ function Type() {
           "A Software Engineer",
           "An IoT Developer",
           "A Project Manager",
-          "A Performance Test Team Lead",
+          "A Performance Tester",
           "A Consultant",
           "A Front-End Developer",
-          "A Cheif Operations Officer"
+          "A Chief Operating Officer"
         ],
         autoStart: true,
         loop: true,

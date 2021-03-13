@@ -4,6 +4,7 @@ import myImg from "../../Assets/itsMe.gif";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Home2() {
   let currentTime = new Date();
@@ -39,7 +40,7 @@ function Home2() {
               
               such as
               
-                <b className="purple"> Node.js and React.js</b>
+                <b className="purple"> <i className="fab fa-react" > </i> and <i className="fab fa-node-js" > </i></b>
               
             </p>
           </Col>   
@@ -65,20 +66,10 @@ function Home2() {
                 >
                   <i className="fab fa-github"></i>
                 </a>
-              </li>
+              </li>              
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/ratnaemani/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/ratnaemoney/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
