@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import BlogCard from "./BlogsCards";
+
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -20,10 +20,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My <strong className="purple">Work</strong> Experience
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are my work experinces (Work & Co-op).
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -78,26 +78,13 @@ function Projects() {
               link="https://github.com/soumyajit4419/MedHub_360"
             />
           </Col>
-        </Row>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Blog </strong> Posts
-        </h1>
-        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
-        <Row style={{ justifyContent: "center" }}>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={algo}
-              link=""
-              title="Cracking Interview"
-              site="gitbook.com"
-            />
-          </Col>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Leaf Disease Prediction"
+              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              link="https://github.com/soumyajit4419/Plant_AI"
             />
           </Col>
         </Row>

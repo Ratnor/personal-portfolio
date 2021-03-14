@@ -14,7 +14,7 @@ function Home() {
         <Particle />
           <Container className="home-content">
             <Row>
-              <Col md={7} className="home-header">
+              <Col sm={5} md={7} className="home-header">
                 <h1 style={{ paddingBottom: 15 }} className="heading">
                   Hello World! <span className="wave">👋🏽</span>
                 </h1>

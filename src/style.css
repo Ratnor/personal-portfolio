@@ -335,13 +335,17 @@ html {
 }
 
 div.myAvtar.col-md-5 div img.img-fluid{
-  height: 425px;
+  max-height: 425px;
+  height: 100%;
+  width: auto;
   border: 5px solid #fff;
 }
 
 div.about-img.col-md-5 img.img-fluid{
   border: 5px solid #fff;
   max-width: 120%;
+  width: 100%;
+  height: auto;
 
   
 }

@@ -24,7 +24,7 @@ function AboutCard() {
             <i class="fas fa-music"></i> Listening to Music
             </li>
             <li className="about-activity">
-            <i class="fas fa-book-reader"></i> Reading Books & Articles
+            <i class="fas fa-book-reader"></i> Reading 
             </li>
             <li className="about-activity">
             <i class="fas fa-map-marked-alt"></i> Travelling
