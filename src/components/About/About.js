@@ -44,39 +44,26 @@ function About() {
         <Row style={{ justifyContent: "center", padding: "50px" }}>        
           <Techstack iconName="fab fa-java" />
           <Techstack iconName="fab fa-python" />
-          <Techstack iconName="fab fa-js" />
-          <Techstack iconName="fab fa-sass" />
+          <Techstack iconName="fab fa-js" />          
           <Techstack iconName="fab fa-bootstrap" />
-          <Techstack iconName="fab fa-git-alt" />          
+          <Techstack iconName="fab fa-git-alt" />                    
+          <Techstack iconName="fab fa-react" />
+          <Techstack iconName="fab fa-node " />
+          <Techstack iconName="fab fa-sass" />
+          <Techstack iconName="fab fa-less" />               
+        </Row>
+        <h1 className="project-heading">
+          <strong className="purple">Tools</strong>
+        </h1>
+        <Row style={{ justifyContent: "center", padding: "50px" }}>
+          <Techstack iconName="fab fa-ubuntu" />
+          <Techstack iconName="fab fa-windows" />
+          <Techstack iconName="fab fa-aws" />
+          <Techstack iconName="fab fa-docker" />
           <Techstack iconName="fab fa-github " />
           <Techstack iconName="fab fa-bitbucket" /> 
           <Techstack iconName="fab fa-confluence" />
           <Techstack iconName="fab fa-jira" />
-          
-          
-                   
-        </Row>
-        <h1 className="project-heading">
-        <strong className="purple">Tools </strong>I'm familiar with
-      </h1>
-      <Row style={{ justifyContent: "center", padding: "50px" }}>          
-        <Techstack iconName="fab fa-node " />
-        <Techstack iconName="fab fa-less" />
-        <Techstack iconName="fab fa-react" />
-        <Techstack iconName="fab fa-aws" />
-        <Techstack iconName="fab fa-docker" />
-
-      </Row>
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-linux-plain" />
-          <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-anaconda" />
-          <Techstack iconName="cib-postman" />
-          <Techstack iconName="cib-zeit" />
-          <Techstack iconName="cib-heroku" />
         </Row>
         <Github />
       </Container>

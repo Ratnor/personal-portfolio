@@ -8,7 +8,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p>
             I am <span className="purple">Ratna Emani </span>
             from <span className="purple"> Ontario, Canada.</span>
             <br />I graduated from McMaster University with Bachelor of Engineering (Software) in 2019. 
@@ -24,7 +24,7 @@ function AboutCard() {
             <i class="fas fa-music"></i> Listening to Music
             </li>
             <li className="about-activity">
-            <i class="fas fa-book-reader"></i> Reading books
+            <i class="fas fa-book-reader"></i> Reading Books & Articles
             </li>
             <li className="about-activity">
             <i class="fas fa-map-marked-alt"></i> Travelling
@@ -33,14 +33,14 @@ function AboutCard() {
             <i class="fas fa-utensils"></i> Cooking & Eating
             </li>
             <li className="about-activity">
-            <i class="fas fa-guitar"></i> Playing Guitar
+            <i class="fas fa-guitar"></i> Playing my Guitar
             </li>
           </ul>
 
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "It's not a bug, it's a feature"{" "}
+          <p className="blockquote-quote">
+            "It's not a bug, it's a feature"
           </p>          
-            <footer className="blockquote-footer">Me</footer>
+            <footer className="blockquote-footer">anon</footer>
            
         </blockquote>
       </Card.Body>
