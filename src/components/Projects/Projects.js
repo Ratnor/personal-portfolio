@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -24,70 +23,39 @@ function Projects() {
         </h1>
         <p style={{ color: "white" }}>
           Here are my work experinces (Work & Co-op).
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Leaf Disease Prediction"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Suicide Ideation Prediction"
-              description="Using 'Natural Launguage Processing' for detection of posts in social media platform to identity if a person is affected by any mental illness and thus helping in sucide prevention."
-              link="https://gist.github.com/soumyajit4419/ef44d41fdc510637c7f6730d1bbce2ed"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eeg}
-              isBlog={false}
-              title="Emotion Predcition from EEG Signals"
-              description="Using EEG signals from 'AMIGOS' Dataset to extract features and train a classifier that helps in detection of human emotions from Brain Signals."
-              link="https://gist.github.com/soumyajit4419/dc94177bc4954752051798f88fbce1df"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={medhub}
-              isBlog={false}
-              title="Making Healthcare Easy and Hassle Free"
-              description="Extract, store and retrieve medical information from Medical Reports using OCR.
-              Display the information online Graphically for the use of Patients as well as Doctors only with Authorised Access.
-              Giving an complete health Analytics to doctors of Patients as well as Doctors preseving user privacy."
-              link="https://github.com/soumyajit4419/MedHub_360"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Leaf Disease Prediction"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
-            />
-          </Col>
-        </Row>
+        </p>      
+          
+        <ProjectCard                    
+          imgPath={leaf}              
+          title="Performance Testing"
+          role="Consultant"
+          client="The Source"
+          description1="Supported as a project lead on a Performance Testing Project for Black Friday."
+          description2="Collaborated with various teams and, analyzed, reported & proposed recommendedaction(s) based on the various testing/tuning cycles performed."
+          description3="We used various tools such as BlazeMeter, DynaTrace, Hybris Admin Console, JMeter& Google Analytics, to test & monitor performance improvements."
+        />
+        <br></br>
+        <br></br>
+        <ProjectCard
+          imgPath={leaf}              
+          title="Connected Retail"
+          role="IoT Developer"
+          client="Bell"
+          description1="Conducted design thinking sessions with many stakeholders, to define a solutionarchitecture of a “Connected Retail 360” to bring online shopping experience toin-store,  based on Azure IoT Best Practices."
+          description2="Built using ESLs, Ultrasonic Sensors & Raspberry Pi 4/IoT Dev Kit to serve as an Edgedevice that communicates telemetry to the IoT Hub."
+          description3="Pitched the Connected Retail Experience as part of the Bell BU IoT CoE Team."
+        />
+        <br></br>
+        <br></br>
+        <ProjectCard
+          imgPath={leaf}              
+          title="Social Media Startup"
+          role="Chief Information Officer"
+          client="MC Master of Ceremony"
+          description1="Supported as a project lead on a Performance Testing Project for Black Friday."
+          description2="Collaborated with various teams and, analyzed, reported & proposed recommendedaction(s) based on the various testing/tuning cycles performed."
+          description3="We used various tools such as BlazeMeter, DynaTrace, Hybris Admin Console, JMeter& Google Analytics, to test & monitor performance improvements."
+        />
       </Container>
     </Container>
   );

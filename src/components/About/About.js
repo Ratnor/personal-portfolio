@@ -42,28 +42,40 @@ function About() {
           <strong className="purple">Skills</strong>
         </h1>
         <Row style={{ justifyContent: "center", padding: "50px" }}>        
-          <Techstack iconName="fab fa-java" />
-          <Techstack iconName="fab fa-python" />
-          <Techstack iconName="fab fa-js" />          
-          <Techstack iconName="fab fa-bootstrap" />
-          <Techstack iconName="fab fa-git-alt" />                    
-          <Techstack iconName="fab fa-react" />
-          <Techstack iconName="fab fa-node " />
-          <Techstack iconName="fab fa-sass" />
-          <Techstack iconName="fab fa-less" />               
+          <Techstack iconName="cib-java" /> 
+          <Techstack iconName="cib-python" />
+          <Techstack iconName="cib-html5" /> 
+          <Techstack iconName="cib-js" />
+          <Techstack iconName="cib-css3-shiled" />
+          <Techstack iconName="cib-jquery" />      
+          <Techstack iconName="cib-bootstrap" />
+          <Techstack iconName="cib-wordpress" />
+          <Techstack iconName="cib-git" />                    
+          <Techstack iconName="cib-react" />
+          <Techstack iconName="cib-node-js" />
+          <Techstack iconName="cib-sass-alt" />
+          <Techstack iconName="cib-less" />
+          <Techstack iconName="cib-stylus" />           
         </Row>
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong>
+          <strong className="purple">Tools</strong> & <strong className="purple">Frameworks</strong>
         </h1>
         <Row style={{ justifyContent: "center", padding: "50px" }}>
-          <Techstack iconName="fab fa-ubuntu" />
-          <Techstack iconName="fab fa-windows" />
-          <Techstack iconName="fab fa-aws" />
-          <Techstack iconName="fab fa-docker" />
-          <Techstack iconName="fab fa-github " />
-          <Techstack iconName="fab fa-bitbucket" /> 
-          <Techstack iconName="fab fa-confluence" />
-          <Techstack iconName="fab fa-jira" />
+          <Techstack iconName="cib-ubuntu" />
+          <Techstack iconName="cib-visual-studio-code"/>
+          <Techstack iconName="cib-amazon-aws" />
+          <Techstack iconName="cib-docker" />
+          <Techstack iconName="cib-raspberry-pi" />
+          <Techstack iconName="cib-npm" />
+          <Techstack iconName="cib-github" />
+          <Techstack iconName="cib-bitbucket" /> 
+          <Techstack iconName="cib-confluence" />
+          <Techstack iconName="cib-jira" />          
+          <Techstack iconName="cib-cpanel" />
+          <Techstack iconName="cib-mysql" />
+          <Techstack iconName="cib-redux" />
+          <Techstack iconName="cib-postman" />
+          <Techstack iconName="cib-eclipseide" />
         </Row>
         <Github />
       </Container>

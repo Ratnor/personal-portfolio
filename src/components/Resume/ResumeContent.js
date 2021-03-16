@@ -9,6 +9,9 @@ function ResumeContent(props) {
       <p>
         <em>{props.date}</em>
       </p>
+      <p>
+      <em>{props.client}</em>
+    </p>
       <ul>
         {props.content.map((value, index) => (
           <li key={index}> ‣ {value}</li>
