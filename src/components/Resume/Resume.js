@@ -80,7 +80,7 @@ function Resume() {
               title="NSS Canada - WordPress Web Developer"
               date="APR 2020 - JUL 2020"
               content={[
-                 "Redesign & redevelopment of a WordPress website with new features such asaccepting donations using PayPal (& Visa).",
+                "Redesign & redevelopment of a WordPress website with new features such asaccepting donations using PayPal (& Visa).",
                 "Custom back-end plugin modifications using PHP & MySQL.",
                 "Custom front-end modifications made using JS, JQuery & CSS."
               ]}

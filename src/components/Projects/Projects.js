@@ -1,17 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import medhub from "../../Assets/Projects/medHub.png";
-import eeg from "../../Assets/Projects/eeg.gif";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import nss from "../../Assets/Projects/nss-can.png";
+import iot from "../../Assets/Projects/connected-retail.png";
+import vapp from "../../Assets/Projects/vapp.PNG";
+
 
 function Projects() {
   return (
@@ -19,43 +17,43 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My <strong className="purple">Work</strong> Experience
+          My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are my work experinces (Work & Co-op).
-        </p>      
-          
-        <ProjectCard                    
-          imgPath={leaf}              
-          title="Performance Testing"
-          role="Consultant"
-          client="The Source"
-          description1="Supported as a project lead on a Performance Testing Project for Black Friday."
-          description2="Collaborated with various teams and, analyzed, reported & proposed recommendedaction(s) based on the various testing/tuning cycles performed."
-          description3="We used various tools such as BlazeMeter, DynaTrace, Hybris Admin Console, JMeter& Google Analytics, to test & monitor performance improvements."
-        />
-        <br></br>
-        <br></br>
-        <ProjectCard
-          imgPath={leaf}              
-          title="Connected Retail"
-          role="IoT Developer"
-          client="Bell"
-          description1="Conducted design thinking sessions with many stakeholders, to define a solutionarchitecture of a “Connected Retail 360” to bring online shopping experience toin-store,  based on Azure IoT Best Practices."
-          description2="Built using ESLs, Ultrasonic Sensors & Raspberry Pi 4/IoT Dev Kit to serve as an Edgedevice that communicates telemetry to the IoT Hub."
-          description3="Pitched the Connected Retail Experience as part of the Bell BU IoT CoE Team."
-        />
-        <br></br>
-        <br></br>
-        <ProjectCard
-          imgPath={leaf}              
-          title="Social Media Startup"
-          role="Chief Information Officer"
-          client="MC Master of Ceremony"
-          description1="Supported as a project lead on a Performance Testing Project for Black Friday."
-          description2="Collaborated with various teams and, analyzed, reported & proposed recommendedaction(s) based on the various testing/tuning cycles performed."
-          description3="We used various tools such as BlazeMeter, DynaTrace, Hybris Admin Console, JMeter& Google Analytics, to test & monitor performance improvements."
-        />
+          Here are a few projects I've worked on recently.
+        </p>
+        <Row style={{ justifyContent: "center" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nss}
+              isLink={true}              
+              title="NSS Canada"
+              description="Redesign & redevelopment of a WordPress website with new features such as accepting donations using PayPal (& Visa). Made custom back-end plugin modifications using PHP & MySQL and front-end modifications made using JS, JQuery & CSS"
+              link="https://nsscanada.org/"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vapp}
+              isLink={true}             
+              title="Vulnerability App (VApp)"
+              description="Design a web application to retrieve (with permission) & assess (give a score) thestate of the user’s privacy settings. Front-end on Vue.js & back-end using Node.js & MySQL server."
+              link="https://github.com/Ratnor/VApp"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iot}
+              isLink={false}              
+              title="Bell - Connected Retail"
+              description="Reviewed our architecture with Azure Architects to plan & develop a smart retail prototype. Built using ESLs, Ultrasonic Sensors & Raspberry Pi 4/IoT Dev Kit to serve as an Edge device that communicates telemetry to the IoT Hub."
+            />
+          </Col>
+
+        </Row>
       </Container>
     </Container>
   );
