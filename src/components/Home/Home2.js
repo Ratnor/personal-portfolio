@@ -4,10 +4,8 @@ import myImg from "../../Assets/itsMe.gif";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Home2() {
-  let currentTime = new Date();
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>

@@ -47,9 +47,10 @@ function About() {
           <Techstack iconName="cib-html5" /> 
           <Techstack iconName="cib-js" />
           <Techstack iconName="cib-css3-shiled" />
-          <Techstack iconName="cib-jquery" />      
+          <Techstack iconName="cib-jquery" /> 
           <Techstack iconName="cib-bootstrap" />
           <Techstack iconName="cib-wordpress" />
+          <Techstack iconName="cib-mysql" />
           <Techstack iconName="cib-git" />                    
           <Techstack iconName="cib-react" />
           <Techstack iconName="cib-node-js" />
@@ -72,9 +73,9 @@ function About() {
           <Techstack iconName="cib-confluence" />
           <Techstack iconName="cib-jira" />          
           <Techstack iconName="cib-cpanel" />
-          <Techstack iconName="cib-mysql" />
           <Techstack iconName="cib-redux" />
           <Techstack iconName="cib-postman" />
+          <Techstack iconName="cib-intellijidea" />
           <Techstack iconName="cib-eclipseide" />
         </Row>
         <Github />

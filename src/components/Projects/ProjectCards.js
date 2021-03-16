@@ -13,12 +13,12 @@ function ProjectCards(props) {
         <Card.Text className="project-text">
           {props.description}
         </Card.Text>        
-        <Card.Subtitle className="project-button"> 
+        <div className="project-button">
           {props.isLink && <Button variant="primary" href={props.link} target="_blank">
             <i className="cil-external-link">&nbsp;</i>
             {"View Project"}
           </Button>}
-        </Card.Subtitle>
+        </div>
       </Card.Body>
     </Card>
   );

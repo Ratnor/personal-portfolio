@@ -23,18 +23,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center" }}>
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={nss}
               isLink={true}              
               title="NSS Canada"
-              description="Redesign & redevelopment of a WordPress website with new features such as accepting donations using PayPal (& Visa). Made custom back-end plugin modifications using PHP & MySQL and front-end modifications made using JS, JQuery & CSS"
+              description="Redesign & develop a WordPress website with new features (i.e. PayPal donations). Plugin modifications using PHP & MySQL and front-end modifications made using JS, JQuery & CSS."
               link="https://nsscanada.org/"
             />
           </Col>
 
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={vapp}
               isLink={true}             
@@ -44,12 +44,12 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={iot}
               isLink={false}              
-              title="Bell - Connected Retail"
-              description="Reviewed our architecture with Azure Architects to plan & develop a smart retail prototype. Built using ESLs, Ultrasonic Sensors & Raspberry Pi 4/IoT Dev Kit to serve as an Edge device that communicates telemetry to the IoT Hub."
+              title="CGI - Connected Retail"
+              description="Planned & developed a smart retail prototype; built using ESLs, Ultrasonic Sensors & Raspberry Pi 4/IoT Dev Kit to serve as an Edge device that communicates telemetry to the IoT Hub."
             />
           </Col>
 
