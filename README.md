@@ -1,22 +1,7 @@
 <h2 align="center">
   Portfolio Website - Ratna's Portfolio<br/>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
-<br/>
-
-<center>
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-
-</center>
-
-
-Credits: [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). 
 
 
 ## Features
@@ -45,3 +30,5 @@ The page will reload if you make edits.
 
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
+
+Credits: [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). 
