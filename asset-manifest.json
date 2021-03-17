@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.f8cb8368.chunk.css",
+    "main.js": "/personal-portfolio/static/js/main.8cfa11bf.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.8cfa11bf.chunk.js.map",
+    "runtime-main.js": "/personal-portfolio/static/js/runtime-main.83a1594e.js",
+    "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.83a1594e.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/personal-portfolio/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.d99d8f49.chunk.js": "/personal-portfolio/static/js/2.d99d8f49.chunk.js",
+    "static/js/2.d99d8f49.chunk.js.map": "/personal-portfolio/static/js/2.d99d8f49.chunk.js.map",
+    "static/js/3.6d06d026.chunk.js": "/personal-portfolio/static/js/3.6d06d026.chunk.js",
+    "static/js/3.6d06d026.chunk.js.map": "/personal-portfolio/static/js/3.6d06d026.chunk.js.map",
+    "index.html": "/personal-portfolio/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/personal-portfolio/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.f8cb8368.chunk.css.map": "/personal-portfolio/static/css/main.f8cb8368.chunk.css.map",
+    "static/js/2.d99d8f49.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.d99d8f49.chunk.js.LICENSE.txt",
+    "static/media/Resume-Ratna-Jan_2021.2352b98f.pdf": "/personal-portfolio/static/media/Resume-Ratna-Jan_2021.2352b98f.pdf",
+    "static/media/about.8c01ea32.png": "/personal-portfolio/static/media/about.8c01ea32.png",
+    "static/media/connected-retail.a79b2462.png": "/personal-portfolio/static/media/connected-retail.a79b2462.png",
+    "static/media/style.css": "/personal-portfolio/static/media/pre.4410c5ba.svg",
+    "static/media/home-main.1da67670.svg": "/personal-portfolio/static/media/home-main.1da67670.svg",
+    "static/media/itsMe.5a8bba9c.gif": "/personal-portfolio/static/media/itsMe.5a8bba9c.gif",
+    "static/media/nss-can.69636a8e.png": "/personal-portfolio/static/media/nss-can.69636a8e.png",
+    "static/media/vapp.989c84f7.PNG": "/personal-portfolio/static/media/vapp.989c84f7.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83a1594e.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.d99d8f49.chunk.js",
+    "static/css/main.f8cb8368.chunk.css",
+    "static/js/main.8cfa11bf.chunk.js"
+  ]
+}
