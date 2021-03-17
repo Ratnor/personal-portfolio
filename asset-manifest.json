@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.27b5698c.chunk.css",
-    "main.js": "/static/js/main.0397309d.chunk.js",
-    "main.js.map": "/static/js/main.0397309d.chunk.js.map",
+    "main.js": "/static/js/main.5739c274.chunk.js",
+    "main.js.map": "/static/js/main.5739c274.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8a3881a3.js",
     "runtime-main.js.map": "/static/js/runtime-main.8a3881a3.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/about.8c01ea32.png": "/static/media/about.8c01ea32.png",
     "static/media/connected-retail.a79b2462.png": "/static/media/connected-retail.a79b2462.png",
     "static/media/style.css": "/static/media/pre.4410c5ba.svg",
-    "static/media/home-main.1da67670.svg": "/static/media/home-main.1da67670.svg",
+    "static/media/home-main.1da67670.png": "/static/media/home-main.1da67670.png",
     "static/media/itsMe.5a8bba9c.gif": "/static/media/itsMe.5a8bba9c.gif",
     "static/media/nss-can.69636a8e.png": "/static/media/nss-can.69636a8e.png",
     "static/media/vapp.989c84f7.PNG": "/static/media/vapp.989c84f7.PNG"
@@ -28,6 +28,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.d99d8f49.chunk.js",
     "static/css/main.27b5698c.chunk.css",
-    "static/js/main.0397309d.chunk.js"
+    "static/js/main.5739c274.chunk.js"
   ]
 }
