@@ -1,17 +1,17 @@
 html {
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    to bottom right,
+    rgba(0, 0, 0, 0.582),
+    rgba(61, 10, 10, 0.904)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(43, 43, 43, 0.678),
+    rgba(0, 0, 0, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #e9a0ff;
 }
 
 .purple {
@@ -58,7 +58,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(82, 56, 99, 0.959);
   border-radius: 12px;
 }
 
@@ -94,7 +94,7 @@ html {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #fa9ffa !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -191,7 +191,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #eab4ff;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -252,14 +252,13 @@ html {
   max-width: 52% !important;
 }
 
-.home-section {
+section{
   position: relative;
-  z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .home-content {
@@ -319,7 +318,7 @@ html {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-}
+  }
 
 .home-about-description {
   color: white !important;
@@ -331,15 +330,15 @@ html {
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align: justify;
 }
 
-div.myAvtar.col-md-5 div img.img-fluid{
+div.myAvtar.col-md-5 {
   max-height: 425px;
   height: 100%;
   width: auto;
-  border: 5px solid #fff;
 }
+
 
 div.about-img.col-md-5 img.img-fluid{
   border: 5px solid #fff;
@@ -348,6 +347,10 @@ div.about-img.col-md-5 img.img-fluid{
   height: auto;
 
   
+}
+
+.home-about-connect {
+  padding-top: 50px;
 }
 
 .home-about-social {
@@ -467,7 +470,12 @@ blockquote.blockquote.mb-0 ul li.about-activity i{
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
 
 .project-card {
@@ -542,7 +550,11 @@ blockquote.blockquote.mb-0 ul li.about-activity i{
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: white !important;
 }
 
@@ -615,7 +627,11 @@ blockquote.blockquote p{
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: white !important;
 }
 

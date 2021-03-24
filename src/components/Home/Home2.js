@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/itsMe.gif";
+import myImg from "../../Assets/itsme.mp4";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
@@ -17,18 +17,26 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming at the age of <b><span className="purple">15 </span></b>
-              and I've been learning ever since!
+              and I have learned ever since!
               <br />
-              <br />I have experience working in classics like
-              
-                <b className="purple"> Java, Python and HTML/CSS/Javascript. </b>
-              
+              <br />I have experience working on classics like <b className="purple">Python </b> 
+                which i picked up in high school and still find myself using.
+                Other languages like <b className="purple"> Java</b>, which I was first 
+                exposed to at my first co-op placement at <b className="purple">CIBC</b> as an 
+                <b className="purple"> Intermediate Software Developer</b>. 
+                <br />
+                <br />At <b className="purple">CGI</b>, as part of the new grad program, 
+                I had the earliest opportunity to work on a Connected Retail project
+                as an <b className="purple">IoT Developer</b>.                                
               <br />
               <br />
-              My current focus is on Learning&nbsp;              
-              <b className="purple">
-               Full Stack Development {/* Try adding animated icons */}               
-              </b> (& few other things 😋)              
+              More recently, as a <b className="purple">Consultant</b> I have begun exploring other roles, including 
+              Test Engineer, Project Manager & Business System Analyst. I have been exposed to various tools and 
+              methodologies during this accelerated learning period. My latest work as a 
+              <b className="purple"> Front-end Developer</b> involve using 
+              <b className="purple"> HTML/CSS/Javascript, JQuery</b> and other Web Development tools.
+              My current focus is to become proficient at  
+              <b className="purple"> Full Stack Development </b>             
               <br />
               <br />
               Whenever I get a chance, I attempt solving open source issues, and apply my passion for developing products
@@ -42,16 +50,19 @@ function Home2() {
               
             </p>
           </Col>   
-          <Col md={5} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+          <Col md={5} className="myAvtar">          
+            <Tilt className="tilt">
+              <video width="auto" height="425" loop="true" autoplay="true">
+                <source src={myImg} type="video/mp4" />
+              </video>              
             </Tilt>
+
           </Col>       
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
             
-            <p>
+            <p className="home-about-connect">
               Feel free to <span className="purple">connect </span>with me on
             </p>
             <ul className="home-about-social-links">
