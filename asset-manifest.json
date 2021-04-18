@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.96b23909.chunk.css",
-    "main.js": "/static/js/main.9ab1daeb.chunk.js",
-    "main.js.map": "/static/js/main.9ab1daeb.chunk.js.map",
+    "main.js": "/static/js/main.9278ceb3.chunk.js",
+    "main.js.map": "/static/js/main.9278ceb3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8a3881a3.js",
     "runtime-main.js.map": "/static/js/runtime-main.8a3881a3.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.96b23909.chunk.css.map": "/static/css/main.96b23909.chunk.css.map",
     "static/js/2.d99d8f49.chunk.js.LICENSE.txt": "/static/js/2.d99d8f49.chunk.js.LICENSE.txt",
-    "static/media/Resume-Ratna-Jan_2021.2352b98f.pdf": "/static/media/Resume-Ratna-Jan_2021.2352b98f.pdf",
+    "static/media/Resume-Ratna-Jan_2021.2d64e63c.pdf": "/static/media/Resume-Ratna-Jan_2021.2d64e63c.pdf",
     "static/media/about.8c01ea32.png": "/static/media/about.8c01ea32.png",
     "static/media/connected-retail.a79b2462.png": "/static/media/connected-retail.a79b2462.png",
     "static/media/style.css": "/static/media/pre.0ea6c0c6.svg",
@@ -28,6 +28,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.d99d8f49.chunk.js",
     "static/css/main.96b23909.chunk.css",
-    "static/js/main.9ab1daeb.chunk.js"
+    "static/js/main.9278ceb3.chunk.js"
   ]
 }
